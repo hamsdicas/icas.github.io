@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Exo:ital,wght@1,200&family=Nunito+Sans:ital@1&display=swap');
+
+body,
+ ul, 
+ li
+ , p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Exo', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{ 
+    margin-bottom:100px ;
+    background-image: url(https://scontent-gru1-2.xx.fbcdn.net/v/t1.15752-9/205385781_912644612651844_2737283808276751253_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeFCQoBdGfehnKp8tcaZ43iAYSyv5jnPzy9hLK_mOc_PL2bRCjPvAk9LMESf7PS0ljZ5L_5AV5soqitP2aJUaUz2&_nc_ohc=TlNRAdCineoAX_ec4b8&_nc_oc=AQlXTdKjNwRR3suy_aOUFs04QfumelneXLrGFv0q6CSII7TIGVV4Qdbnik84vnwZxMY&_nc_ht=scontent-gru1-2.xx&oh=7df7fbcc6b58133f4ac73edb1e50ab74&oe=60DC5DB3);
+}
+h1{
+    text-align:center ;
+    margin-top: 100px;
+    font-family: 'Caveat', cursive;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h3{
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-family:'Nunito Sans', sans-serif;
+}
+h2{ text-align:center ;
+    margin-top: 100px;
+    color: black;
+    font-family:'Nunito Sans', sans-serif;}
+a {
+    text-decoration: none;
+color: rgb(0, 0, 0);
+font-family: 'Exo', sans-serif;}
+
+LI {
+    text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+.header{
+    margin-top: 30px ;
+    background-image: url(/haeder.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.menu{ 
+    display: flex;
+}
+
+.menu li{
+    margin-left:10px ;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+
+.flex{
+    margin-top: 20px;
+    margin-left: 135px;
+    display: flex;
+    flex-wrap:wrap ;
+    max-width: 1000px;
+   
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 30px;
+
+}
+
+/*grid*/
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 950px;
+    margin-top: 20px;
+    margin-left: 150px;
+   
+    grid-gap: 30px;
+
+}
+.grid1 > div:nth-child(n + 4){
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+.grid1 > div.anuncio{
+    grid-column: 1;
+    grid-row: 2/5;
+    border-top: blue;
+    display: block;
+}
+
+.section1{
+    display:flex;   
+    height: 7vw;
+    background-image: url(https://scontent-gru2-2.xx.fbcdn.net/v/t1.15752-9/90693931_212183883211812_722984442074759168_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeHBKBBdy1HTJ0eL-C2cZwKuqit6ZnOAnV-qK3pmc4CdXxrfl4Dqe9D4jhq44hKAOc3uS21yipGDcSfLwMt5gZSP&_nc_ohc=VZ9NUXzCcewAX-J5D2X&_nc_ht=scontent-gru2-2.xx&oh=fb78adf61fe85e80adc15b7569343c3a&oe=60D37AAB);
+    margin-top: 15px;
+}
+.centralize{
+    margin:auto;
+    text-align: center;
+ }
+
+
+ .section2{
+     display: flex;
+     
+ }
+
+footer{
+    background-image: url(/haeder.jpg);
+}
+footer LI{
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+.section2{
+    display: flex;
+    
+}
